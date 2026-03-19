@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMK Web – Professionelle Websites</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="SMK Web Logo">
+      </a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <!-- Renamed "Über mich" to "Über uns" -->
+          <li><a href="about.html" class="nav-link">Über uns</a></li>
+          <li><a href="services.html" class="nav-link">Leistungen</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+      <!-- Mobile Menu Toggle -->
+      <button class="burger" aria-label="Menu öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero parallax-section" data-scroll-reveal>
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-container">
+        <h1 class="hero-title animate-slide-up">Websites für kleine Unternehmen - schnell & modern</h1>
+        <p class="hero-subtitle animate-slide-up delay-1">Wir erstellen einfache, schöne Websites für lokale Firmen in der Schweiz.</p>
+        <a href="services.html" class="btn btn-primary animate-slide-up delay-2">Angebote Entdecken</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="section-container">
+        <div class="about-grid">
+          <div class="about-image" data-scroll-reveal>
+            <div class="image-wrapper">
+              <img src="assets/images/team-collaboration.jpg" alt="Unser Team">
+            </div>
+          </div>
+          <div class="about-text" data-scroll-reveal>
+            <h2 class="section-title">Professionelle Websites von einem kompetenten Team</h2>
+            <p class="text-content">Wir sind ein engagiertes Team von Webentwicklern und Designern, das sich darauf spezialisiert hat, moderne und benutzerfreundliche Websites für kleine und mittelständische Unternehmen zu erstellen. Mit unserer Expertise in modernen Webtechnologien und unserem Fokus auf Kundenzufriedenheit helfen wir Ihnen, online erfolgreich zu sein.</p>
+            <a href="about.html" class="btn btn-secondary">Mehr über uns erfahren</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio/Reviews Section -->
+    <!-- Updated portfolio section with references from portfolio.html -->
+    <section class="portfolio-section">
+      <div class="section-container">
+        <div class="section-header" data-scroll-reveal>
+          <h2 class="section-title">Referenzen</h2>
+          <p class="section-subtitle">Was unsere Kunden über uns sagen</p>
+        </div>
+
+        <div class="reviews-carousel-wrapper" data-scroll-reveal>
+          <div class="reviews-carousel">
+            <div class="review-card active">
+              <h3 class="review-title">E-Commerce Plattform</h3>
+              <p class="review-text">„Die neue E-Commerce-Lösung hat unseren Online-Umsatz um 150% gesteigert. Professionelle Arbeit vom ersten Tag an."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Unternehmenswebsite</h3>
+              <p class="review-text">„Moderne, responsive Website die perfekt unsere Marke repräsentiert. Das Team war immer erreichbar und hilfsbereit."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Restaurant Portal</h3>
+              <p class="review-text">„Dank der neuen Website haben wir 40% mehr Online-Reservierungen. Die Benutzerfreundlichkeit ist hervorragend."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Immobilien Plattform</h3>
+              <p class="review-text">„Unsere Immobilien werden jetzt professionell präsentiert. Die Suchfunktion funktioniert einwandfrei."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Fitness Studio Website</h3>
+              <p class="review-text">„Die Integration des Buchungssystems war nahtlos. Unsere Mitglieder lieben die neue Website."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Anwaltskanzlei</h3>
+              <p class="review-text">„Seriöses, professionelles Design das Vertrauen schafft. Genau das was wir gebraucht haben."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Handwerksbetrieb</h3>
+              <p class="review-text">„Einfache Verwaltung, schönes Design und mehr Kundenanfragen. Wir sind sehr zufrieden."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Beratungsunternehmen</h3>
+              <p class="review-text">„Die Website spiegelt unsere Expertise perfekt wider. Professionelle Umsetzung in kurzer Zeit."</p>
+            </div>
+
+            <div class="review-card">
+              <h3 class="review-title">Online-Shop</h3>
+              <p class="review-text">„Schnelle Ladezeiten, intuitive Navigation und ein modernes Design. Unsere Kunden sind begeistert."</p>
+            </div>
+          </div>
+          
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Vorheriges Review">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <div class="carousel-dots"></div>
+            <button class="carousel-btn next-btn" aria-label="Nächstes Review">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-cta">
+          <a href="portfolio.html" class="btn btn-primary">Mehr Referenzen ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="cta-section" data-scroll-reveal>
+      <div class="section-container">
+        <h2 class="cta-title">Interessiert? Kontaktieren Sie uns!</h2>
+        <p class="cta-subtitle">Treten Sie mit uns in Kontakt und wir werden alles weitere besprechen</p>
+        <a href="contact.html" class="btn btn-primary pulse-animation">Kontaktieren</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 class="footer-title">SMK Web</h4>
+          <p class="footer-description">Professionelle Websites für kleine Unternehmen in der Schweiz.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">Über uns</a></li>
+            <li><a href="services.html" class="footer-link">Leistungen</a></li>
+            <li><a href="portfolio.html" class="footer-link">Portfolio</a></li>
+            <li><a href="contact.html" class="footer-link">Kontakt</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4 class="footer-title">Rechtliches</h4>
+          <ul class="footer-links">
+            <li><a href="impressum.html" class="footer-link">Impressum</a></li>
+            <!-- Updated Datenschutz link to point to datenschutz.html -->
+            <li><a href="datenschutz.html" class="footer-link">Datenschutz</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4 class="footer-title">Kontakt</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+41782053424" class="footer-link">+41 78 205 34 24</a></li>
+            <li><a href="mailto:info@smkweb.ch" class="footer-link">info@smkweb.ch</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="footer-text">© 2025 SMK Web | Alle Rechte vorbehalten</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
