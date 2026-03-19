@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: smk-web-service
+  labels:
+    app: smk-web
+spec:
+  type: NodePort          # Für Minikube: NodePort statt LoadBalancer
+  selector:
+    app: smk-web
+  ports:
+    - protocol: TCP
+      port: 80            # Port im Cluster
+      targetPort: 80      # Port im Container
+      nodePort: 30080     # Externer Port (30000–32767)
